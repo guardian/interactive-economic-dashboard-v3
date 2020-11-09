@@ -1,0 +1,180 @@
+@import "mq";
+@import "fonts";
+// Uncomment for embeds
+//@import "embed";
+// Uncomment for full screen (including immersive article main media)
+//@import "fullscreen";
+.gv-interactive {
+    // RESTORE THIS BEFORE GO-LIVE
+    display: none;
+    @include fs-headline(2);
+    color: #767676;
+    font-size: 14px;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 4px;
+    &.placed {
+        display: block;
+    }
+    .gv-key {
+        @include fs-textSans(2);
+        margin-top: 0px;
+    }
+    svg {
+        max-width: 100%;
+    }
+    span {
+        @include fs-textSans(2);
+        margin-right: 20px;
+    }
+    .gv-blob {
+        display: inline-block;
+        width: 7px;
+        height: 11px;
+        margin-right: 4px;
+        border-radius: 2px;
+        &.gbpeur {
+            background-color: #056da1;
+        }
+        &.gbpusd {
+            background-color: #cc0a11;
+        }
+    }
+    h1 {
+        color: #000;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+    .tick {
+        text {
+            @include fs-textSans(2);
+            fill: #bdbdbd;
+        }
+    }
+    .gv-brexit-tick>.tick {
+        text {
+            transform: translateY(6px);
+            font-weight: bold;
+            fill: #111;
+        }
+        line {
+            stroke: #111;
+        }
+    }
+    .gv-zero-line>.tick {
+        line {
+            stroke: #aaa;
+        }
+    }
+    .gv-horizontal-grid>.tick {
+        text {
+            transform: translate(22px, -10px);
+            fill: #bdbdbd;
+        }
+        line {
+            stroke: #bdbdbd;
+            stroke-dasharray: 1 1;
+        }
+    }
+    .ftse100 .gv-horizontal-grid>.tick {
+        text {
+            transform: translate(40px, -10px);
+            fill: #bdbdbd;
+        }
+    }
+    .ftse250 .gv-horizontal-grid>.tick {
+        text {
+            transform: translate(48px, -10px);
+            fill: #bdbdbd;
+        }
+    }
+    .sterling .gv-horizontal-grid>.tick {
+        text {
+            transform: translate(28px, -10px);
+            fill: #bdbdbd;
+        }
+    }
+    .unemployment .gv-brexit-tick {
+        line {
+            display: none;
+        }
+    }
+    .wages .gv-brexit-tick {
+        line {
+            display: none;
+        }
+    }
+    .domain {
+        display: none;
+    }
+    .gv-source {
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 8px;
+        font-family: 'Guardian Text Sans Web';
+        color: #767676;
+    }
+}
+
+.transport {
+    #line1 {
+        stroke: #056da1;
+    }
+    #line2 {
+        stroke: #cc0a11;
+    }
+}
+
+.pmi {
+    #line1 {
+        stroke: #056da1;
+    }
+    .china {
+        background-color: #056da1;
+    }
+    #line2 {
+        stroke: #cc0a11;
+    }
+    .us {
+        background-color: #cc0a11;
+    }
+    #line3 {
+        stroke: #ff7f0f;
+    }
+    .eurozone {
+        background-color: #ff7f0f;
+    }
+    #line4 {
+        stroke: #90dcff;
+    }
+    .uk {
+        background-color: #90dcff;
+    }
+}
+
+.borrowing {
+    #line3 {
+        stroke: #cc0a11;
+    }
+    .ad2020 {
+        background-color: #cc0a11;
+    }
+    #line2 {
+        stroke: #056da1;
+    }
+    .ad2019 {
+        background-color: #056da1;
+    }
+    #line1 {
+        stroke: #767676;
+    }
+    .ad2018 {
+        background-color: #767676;
+    }
+}
+
+svg {
+    overflow: visible !important;
+}
