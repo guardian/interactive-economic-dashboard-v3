@@ -8,7 +8,7 @@ import config from "./../../../../config.json";
 var dataurl = config.docDataUrl;
 
 d3request.json(dataurl, function(d) {
-    console.log(d)
+    // // // console.log(d)
     var alldata = d.sheets;
 
     //MEMO re arguments

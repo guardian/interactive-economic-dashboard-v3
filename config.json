@@ -1,6 +1,14 @@
 {
-    "title": "Corona dashboard October 2020",
+    "title": "Corona dashboard November 2020",
     "docData": "",
-    "docDataUrl": "https://interactive.guim.co.uk/docsdata-test/1j0N5FUjMIaq0JLhLZ40oaxSVFpU_vGOO77wvOdkrWDg.json",
-    "path": "2020/11/v3-corona-dashboard"
+    "docDataUrl": "https://interactive.guim.co.uk/docsdata-test/1RYkDyolGmvhPZ0KCESGZypenuaD5JuzAheW7zqVzUTA.json",
+    "path": "2020/11/v3-corona-dashboard",
+    "previousEditions": [{
+            "title": "Corona dashboard November 2020",
+            "docData": "",
+            "docDataUrl": "https://interactive.guim.co.uk/docsdata-test/1RYkDyolGmvhPZ0KCESGZypenuaD5JuzAheW7zqVzUTA.json",
+            "path": "2020/11/v3-corona-dashboard"
+        },
+        {}
+    ]
 }
