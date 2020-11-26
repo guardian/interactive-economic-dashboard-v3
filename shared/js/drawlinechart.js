@@ -102,6 +102,7 @@ export default function drawlinechart(
         if (numberOfDataSeries > 2) {
             var line3 = d3
                 .line()
+                .defined(d => !isNaN(d[columnNameArray[1]]))
                 .x(function(d) {
                     return x(d.Date);
                 })
