@@ -29,7 +29,7 @@ export default function drawlinechart(
     }
 
     var svg = select("svg" + selector),
-        margin = { top: 20, right: 20, bottom: 20, left: 40 },
+        margin = { top: 20, right: 0, bottom: 20, left: 40 },
         outerwidth = destwidth ? destwidth : 500,
         outerheight = destwidth ? destwidth * 0.61 : 500 * 0.61,
         innerheight = outerheight - margin.top - margin.bottom,
