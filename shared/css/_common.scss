@@ -110,10 +110,10 @@
         display: none;
     }
     .gv-source {
+        @include fs-textSans(2);
         font-size: 12px;
         line-height: 16px;
         margin-top: 8px;
-        font-family: 'Guardian Text Sans Web';
         color: #767676;
     }
 }
@@ -177,4 +177,10 @@
 
 svg {
     overflow: visible !important;
+}
+
+.gv-x-axis {
+    .tick:last-of-type {
+        text-anchor: end;
+    }
 }

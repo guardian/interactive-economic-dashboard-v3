@@ -268,6 +268,7 @@ export default function drawlinechart(
         if (selector != ".borrowing") {
             g.append("g")
                 .attr("transform", "translate(0," + innerheight + ")")
+                .attr("class", "gv-x-axis")
                 .call(
                     d3axis
                     .axisBottom(x)
