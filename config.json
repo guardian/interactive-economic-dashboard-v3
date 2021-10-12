@@ -1,9 +1,21 @@
 {
-    "title": "Corona dashboard July 2021",
+    "title": "Corona dashboard October 2021",
+    "docData": "",
+    "docDataUrl": "https://interactive.guim.co.uk/docsdata-test/1kTBSPmyXR0qOVetiX61gwtqNbdpc2TYep4Z_6_B6u3A.json",
+    "path": "2021/10/v3-corona-dashboard",
+    "previousEditions": [
+        {
+            "title": "Corona dashboard August 2021",
+            "docData": "",
+            "docDataUrl": "https://interactive.guim.co.uk/docsdata-test/10z4hvcncl5J_55iUotQNdTkbqaQek_RZOkwab3KiZTs.json",
+            "path": "2021/09/v3-corona-dashboard"
+        },
+        {
+            "title": "Corona dashboard July 2021",
     "docData": "",
     "docDataUrl": "https://interactive.guim.co.uk/docsdata-test/1bsJfkt8nAGEBR-i9yeExAUnFS07E7jtwdIeSpB5fMXw.json",
-    "path": "2021/07/v3-corona-dashboard",
-    "previousEditions": [
+    "path": "2021/07/v3-corona-dashboard"
+        },
         {
             "title": "Corona dashboard June 2021",
             "docData": "",
